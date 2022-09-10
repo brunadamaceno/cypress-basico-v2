@@ -9,7 +9,7 @@ describe("Central de Atendimento ao Cliente TAT", () => {
   it("Verifica o título da aplicação", () => {
     cy.title().should("be.equal", "Central de Atendimento ao Cliente TAT");
   });
-  it.only("Preenche todos os campos obrigatórios e envia o formulário", () => {
+  it("Preenche todos os campos obrigatórios e envia o formulário", () => {
     cy.get("#firstName").type("Bruna Isabela");
     cy.get("#lastName").type("Damaceno");
     cy.get("#email").type("brunadamaceno@gmail.com");
