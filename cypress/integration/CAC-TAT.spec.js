@@ -6,7 +6,7 @@ describe("Central de Atendimento ao Cliente TAT", () => {
   beforeEach(() => {
     cy.visit("./src/index.html");
   });
-  it("Verifica o título da aplicação", () => {
+  it("Verify tittle of application", () => {
     cy.title().should("be.equal", "Central de Atendimento ao Cliente TAT");
   });
   it("Preenche todos os campos obrigatórios e envia o formulário", () => {
