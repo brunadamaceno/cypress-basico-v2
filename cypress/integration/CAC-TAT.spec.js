@@ -1,7 +1,5 @@
 /// <reference types="Cypress" />
 
-import { should } from "chai";
-
 describe("Central de Atendimento ao Cliente TAT", () => {
   beforeEach(() => {
     cy.visit("./src/index.html");
